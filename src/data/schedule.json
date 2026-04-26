@@ -1,0 +1,15 @@
+{
+  "fulshear": [
+    { "day": "Monday", "time": "4:00 PM", "level": "Beginner", "coach": "Coach" },
+    { "day": "Monday", "time": "5:00 PM", "level": "Intermediate", "coach": "Coach" },
+    { "day": "Wednesday", "time": "4:00 PM", "level": "Beginner", "coach": "Coach" },
+    { "day": "Wednesday", "time": "5:00 PM", "level": "Intermediate", "coach": "Coach" },
+    { "day": "Friday", "time": "4:00 PM", "level": "Advanced", "coach": "Coach" }
+  ],
+  "tays": [
+    { "day": "Tuesday", "time": "4:00 PM", "level": "Beginner", "coach": "Coach" },
+    { "day": "Tuesday", "time": "5:00 PM", "level": "Intermediate", "coach": "Coach" },
+    { "day": "Thursday", "time": "4:00 PM", "level": "Beginner", "coach": "Coach" },
+    { "day": "Thursday", "time": "5:00 PM", "level": "Intermediate", "coach": "Coach" }
+  ]
+}

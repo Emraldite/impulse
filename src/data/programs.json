@@ -1,0 +1,17 @@
+{
+  "group": {
+    "title": "Group Lessons",
+    "description": "Small group sessions with up to 5 students per class",
+    "maxStudents": 5,
+    "levels": ["Beginner", "Intermediate", "Advanced"],
+    "pricing": "TBD",
+    "note": "Payment is collected at the start of each session"
+  },
+  "private": {
+    "title": "Private Lessons",
+    "description": "One-on-one instruction tailored to your skill level",
+    "duration": "1 hour",
+    "pricing": "TBD",
+    "note": "Payment is collected at the start of each session"
+  }
+}

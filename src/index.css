@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tennis-green: #4CAF50;
+  --color-tennis-green-dark: #388E3C;
+  --color-navy: #1a365d;
+  --color-navy-light: #2c5282;
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-family-sans);
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #1a365d;
+}
+
+* {
+  box-sizing: border-box;
+}
