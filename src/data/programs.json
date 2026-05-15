@@ -3,7 +3,7 @@
     "title": "Group Lessons",
     "description": "Small group sessions with up to 5 students per class",
     "maxStudents": 5,
-    "levels": ["Beginner", "Intermediate", "Advanced"],
+    "levels": ["Beginner", "Advanced", "Rallying"],
     "pricing": "TBD",
     "note": "Payment is collected at the start of each session"
   },
@@ -13,5 +13,23 @@
     "duration": "1 hour",
     "pricing": "TBD",
     "note": "Payment is collected at the start of each session"
+  },
+  "groupPricing": {
+    "period": "Monthly",
+    "duration": "2 hours per class",
+    "plans": [
+      { "daysPerWeek": 1, "classesPerMonth": 4, "price": 170 },
+      { "daysPerWeek": 2, "classesPerMonth": 8, "price": 320 },
+      { "daysPerWeek": 3, "classesPerMonth": 12, "price": 420 },
+      { "daysPerWeek": 4, "classesPerMonth": 16, "price": 520 }
+    ]
+  },
+  "privatePricing": {
+    "rates": [
+      { "students": 1, "duration": "1h", "single": 80, "monthly": 75 },
+      { "students": 2, "duration": "1h", "single": 90, "monthly": 85 },
+      { "students": 3, "duration": "1h", "single": 100, "monthly": 95 },
+      { "students": 1, "duration": "0.5h", "single": 45, "monthly": 40 }
+    ]
   }
 }

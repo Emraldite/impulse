@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Programs from './pages/Programs';
 import Schedule from './pages/Schedule';
 import Coaches from './pages/Coaches';
+import Policies from './pages/Policies';
 import Contact from './pages/Contact';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/programs" element={<Programs />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/coaches" element={<Coaches />} />
+          <Route path="/policies" element={<Policies />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

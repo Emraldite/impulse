@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold text-tennis-green mb-4">Houston Impulse Tennis</h3>
-            <p className="text-gray-300">Professional tennis instruction in Fulshear and Tays.</p>
+            <p className="text-gray-300">Professional tennis instruction. Small group and private lessons designed to build real technique and a love for tennis</p>
           </div>
 
           <div>
@@ -22,7 +22,10 @@ export default function Footer() {
 
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
-            <p className="text-gray-300">Fulshear, TX & Tays, TX</p>
+            <ul className="space-y-2">
+              <p className="text-gray-300">hitallc20@gmail.com</p>
+              <p className="text-gray-300">+1 626 236-2901</p>
+            </ul>
           </div>
         </div>
 

@@ -1,23 +1,135 @@
 @import "tailwindcss";
 
-@theme {
-  --color-tennis-green: #4CAF50;
-  --color-tennis-green-dark: #388E3C;
-  --color-navy: #1a365d;
-  --color-navy-light: #2c5282;
-  --font-family-sans: 'Inter', system-ui, sans-serif;
+:root {
+  --card: #f4f7f0;
+  --ring: #2e7d32;
+  --input: #d4e0c9;
+  --muted: #eaf0e4;
+  --accent: #c8e6c9;
+  --border: #d4e0c9;
+  --radius: 0.5rem;
+  --chart-1: #4caf50;
+  --chart-2: #388e3c;
+  --chart-3: #2e7d32;
+  --chart-4: #1b5e20;
+  --chart-5: #0a1f0c;
+  --popover: #f4f7f0;
+  --primary: #2e7d32;
+  --sidebar: #eaf0e4;
+  --font-mono: Source Code Pro, monospace;
+  --font-sans: Montserrat, sans-serif;
+  --secondary: #e8f5e9;
+  --background: #f4f7f0;
+  --font-serif: Merriweather, serif;
+  --foreground: #1a3a1a;
+  --destructive: #c62828;
+  --sidebar-ring: #2e7d32;
+  --sidebar-accent: #c8e6c9;
+  --sidebar-border: #d4e0c9;
+  --card-foreground: #1a3a1a;
+  --sidebar-primary: #2e7d32;
+  --muted-foreground: #4a7c59;
+  --accent-foreground: #1b5e20;
+  --popover-foreground: #1a3a1a;
+  --primary-foreground: #ffffff;
+  --sidebar-foreground: #1a3a1a;
+  --secondary-foreground: #1b5e20;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #1b5e20;
+  --sidebar-primary-foreground: #ffffff;
+}
+
+.dark {
+  --card: #2d3a2e;
+  --ring: #4caf50;
+  --input: #3e4a3d;
+  --muted: #2d3a2e;
+  --accent: #388e3c;
+  --border: #3e4a3d;
+  --radius: 0.5rem;
+  --chart-1: #81c784;
+  --chart-2: #66bb6a;
+  --chart-3: #4caf50;
+  --chart-4: #43a047;
+  --chart-5: #388e3c;
+  --popover: #2d3a2e;
+  --primary: #4caf50;
+  --sidebar: #1c2a1f;
+  --secondary: #3e4a3d;
+  --background: #1c2a1f;
+  --foreground: #e8f0e4;
+  --destructive: #c62828;
+  --sidebar-ring: #4caf50;
+  --sidebar-accent: #388e3c;
+  --sidebar-border: #3e4a3d;
+  --card-foreground: #e8f0e4;
+  --sidebar-primary: #4caf50;
+  --muted-foreground: #a8c4a0;
+  --accent-foreground: #e8f0e4;
+  --popover-foreground: #e8f0e4;
+  --primary-foreground: #0a1f0c;
+  --sidebar-foreground: #e8f0e4;
+  --secondary-foreground: #c8e0c0;
+  --destructive-foreground: #e8f0e4;
+  --sidebar-accent-foreground: #e8f0e4;
+  --sidebar-primary-foreground: #0a1f0c;
+}
+
+@theme inline {
+  --color-card: var(--card);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-radius: var(--radius);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-popover: var(--popover);
+  --color-primary: var(--primary);
+  --color-sidebar: var(--sidebar);
+  --color-font-mono: var(--font-mono);
+  --color-font-sans: var(--font-sans);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-font-serif: var(--font-serif);
+  --color-foreground: var(--foreground);
+  --color-destructive: var(--destructive);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-card-foreground: var(--card-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  /* Aliases for existing component classes */
+  --color-tennis-green: #4caf50;
+  --color-tennis-green-dark: #1b5e20;
+  --color-navy: var(--foreground);
+  --color-navy-light: #2d5a2d;
+  --color-surface: var(--card);
 }
 
 @layer base {
   html {
-    font-family: var(--font-family-sans);
+    font-family: var(--font-sans);
   }
 }
 
 body {
   margin: 0;
-  background-color: #fff;
-  color: #1a365d;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 * {

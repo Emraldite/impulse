@@ -10,9 +10,6 @@ export default function Hero() {
         <p className="text-xl md:text-2xl text-gray-200 mb-6">
           Build Your Game. Build Your Confidence.
         </p>
-        <p className="text-lg text-gray-300 mb-8">
-          Professional tennis lessons in Fulshear and Tays
-        </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <Link
@@ -32,15 +29,15 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
           <div className="bg-navy/50 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-tennis-green mb-2">Group Lessons</h3>
-            <p className="text-gray-300">Up to 5 students per class</p>
+            <p className="text-gray-300">No experience needed to get started</p>
           </div>
           <div className="bg-navy/50 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-tennis-green mb-2">Private Lessons</h3>
             <p className="text-gray-300">One-on-one focused training</p>
           </div>
           <div className="bg-navy/50 p-6 rounded-lg">
-            <h3 className="text-xl font-bold text-tennis-green mb-2">Two Locations</h3>
-            <p className="text-gray-300">Fulshear and Tays</p>
+            <h3 className="text-xl font-bold text-tennis-green mb-2">For Every Player</h3>
+            <p className="text-gray-300">Kids, teens, and adults welcome</p>
           </div>
         </div>
       </div>

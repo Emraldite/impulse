@@ -12,7 +12,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
+            <div className="bg-surface border-2 border-gray-200 rounded-lg p-6">
               <h2 className="text-2xl font-bold text-navy mb-6">Send Us a Message</h2>
               <ContactForm />
             </div>
@@ -24,16 +24,12 @@ export default function Contact() {
               <p className="text-gray-600 mb-4">
                 Prefer to call? Reach us at:
               </p>
-              <p className="text-gray-600 mb-4">[Phone Number]</p>
+              <p className="text-gray-600 mb-4">+1 626 236-2901</p>
             </div>
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-navy mb-4">Locations</h2>
               <p className="text-gray-600 mb-2"><strong>Fulshear:</strong> 9302 Charger Way, Fulshear, TX 77441</p>
               <p className="text-gray-600"><strong>Tays:</strong> 26721 Hawks Prairie Blvd, Katy, TX 77494</p>
-            </div>
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-navy mb-4">Hours</h2>
-              <p className="text-gray-600">TBD</p>
             </div>
             <div>
               <Link

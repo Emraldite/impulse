@@ -1,10 +1,26 @@
 {
   "headCoach": {
-    "name": "TBD",
-    "bio": "TBD",
+    "name": "Coach Jason",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "photo": null,
     "certifications": [],
-    "philosophy": ""
+    "philosophy": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   },
-  "assistantCoaches": "High school student assistants"
+  "assistantCoaches": [
+    {
+      "name": "Assistant Coach A",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "photo": null
+    },
+    {
+      "name": "Assistant Coach B",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "photo": null
+    },
+    {
+      "name": "Assistant Coach C",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "photo": null
+    }
+  ]
 }

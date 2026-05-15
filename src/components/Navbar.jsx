@@ -6,6 +6,7 @@ const navLinks = [
   { path: '/programs', label: 'Programs' },
   { path: '/schedule', label: 'Schedule' },
   { path: '/coaches', label: 'Coaches' },
+  { path: '/policies', label: 'Policies' },
   { path: '/contact', label: 'Contact' },
 ];
 
@@ -14,11 +15,11 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="bg-navy text-white sticky top-0 z-50">
+    <nav className="bg-navy text-white">
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-xl font-bold text-tennis-green">
-            Houston Impulse Tennis
+          <Link to="/">
+            <img src="/logowtext.png" alt="Houston Impulse Tennis" className="h-20 w-auto" />
           </Link>
 
           <button

@@ -1,11 +1,11 @@
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    location: '',
     message: '',
   });
   const [status, setStatus] = useState(null);
@@ -20,15 +20,16 @@ export default function ContactForm() {
     setStatus('submitting');
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+      const result = await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formData,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      );
 
-      if (response.ok) {
+      if (result.status === 200) {
         setStatus('success');
-        setFormData({ name: '', email: '', phone: '', location: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', message: '' });
       } else {
         setStatus('error');
       }
@@ -90,24 +91,6 @@ export default function ContactForm() {
           onChange={handleChange}
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tennis-green focus:border-transparent"
         />
-      </div>
-
-      <div>
-        <label htmlFor="location" className="block text-sm font-medium text-gray-700 mb-1">
-          Preferred Location
-        </label>
-        <select
-          id="location"
-          name="location"
-          value={formData.location}
-          onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tennis-green focus:border-transparent"
-        >
-          <option value="">Select a location</option>
-          <option value="fulshear">Fulshear</option>
-          <option value="tays">Tays</option>
-          <option value="either">Either</option>
-        </select>
       </div>
 
       <div>
