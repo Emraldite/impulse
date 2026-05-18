@@ -24,7 +24,7 @@ export default function Contact() {
               <p className="text-gray-600 mb-4">
                 Prefer to call? Reach us at:
               </p>
-              <p className="text-gray-600 mb-4">+1 626 236-2901</p>
+              <p className="text-gray-600 mb-4">+1 626 236-2902</p>
             </div>
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-navy mb-4">Locations</h2>

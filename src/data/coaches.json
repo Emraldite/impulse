@@ -1,26 +1,45 @@
 {
   "headCoach": {
     "name": "Coach Jason",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "photo": null,
-    "certifications": [],
-    "philosophy": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    "bio": "Coach Jason is a veteran tennis professional and the head of our academy. He specializes in precise mechanical training, competitive player development, and structural drill planning. Whether refining a student's kinetic chain or preparing players for official UTR tournaments, Coach Jason delivers elite, personalized instruction across Katy and Fulshear. His goal is to foster both athletic excellence and a lifelong passion for the sport.",
+    "photo": "/images/coaches/jason.jpg",
+    "certifications": []
   },
   "assistantCoaches": [
     {
-      "name": "Assistant Coach A",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "photo": null
+      "name": "JoonHa Kim",
+      "bio": "Hello, I am JoonHa Kim and I was the Varsity team captain for two out of the four years at Fulshear High School. One of my favorite things I love about coaching is meeting new kids and finding ways to teach them based on a variety of skills and personalities!",
+      "photo": "/images/coaches/joonha.jpg"
     },
     {
-      "name": "Assistant Coach B",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "photo": null
+      "name": "Mayukh Jain",
+      "bio": "Hello! My name is Mayukh Jain and I have loved playing tennis for the past 4 years of my life. I currently attend Churchill Fulshear High School and play for the school tennis team. Something I love about coaching is the new friendships I make, whether it be through other assistant coaches, or even students my age.",
+      "photo": "/images/coaches/mayukh.jpg"
     },
     {
-      "name": "Assistant Coach C",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "photo": null
+      "name": "Dawei",
+      "bio": "Dawei is a varsity tennis player for Fulshear High School. In his free time, he likes to find new food to try out.",
+      "photo": "/images/coaches/dawei.jpg"
+    },
+    {
+      "name": "Haofei",
+      "bio": "Hi my name is Haofei and I was on the Tompkins tennis team throughout High School. I enjoy many activities such as running, basketball, and swimming as well!",
+      "photo": "/images/coaches/haofei.jpg"
+    },
+    {
+      "name": "Tarun",
+      "bio": "I am a junior at Tompkins High School with over five years of tennis experience and two years of coaching experience. I am an active member of the Tompkins JV Tennis Team and am involved in several school organizations, including robotics. I am passionate about the sport, reliable, and committed to helping others grow their skills on the court.",
+      "photo": "/images/coaches/tarun.jpg"
+    },
+    {
+      "name": "Minjoon Kim",
+      "bio": "Hi! My name is Minjoon Kim, and I played tennis for three years at Fulshear High School. Through that experience, it helped me build a strong foundation, discipline, and a deeper appreciation for tennis. My favorite part about coaching is watching my students improve over time and gain confidence in their skills. I enjoy creating an environment where players can grow but also have fun playing tennis.",
+      "photo": "/images/coaches/minjoon.jpg"
+    },
+    {
+      "name": "Samantha Luo",
+      "bio": "I'm Samantha Luo, a senior at Seven Lakes High School. Although I'm not currently on the tennis team, I love to play with my friends after school. Before that, I was third seed at the Beckendorff Junior High tennis team. As an assistant coach, I aim to bring a positive energy to the court, developing both players' skills and a love for the sport.",
+      "photo": "/images/coaches/samantha.jpg"
     }
   ]
 }

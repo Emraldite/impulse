@@ -26,11 +26,6 @@ export default function Coaches() {
             <div>
               <h3 className="text-2xl font-bold text-navy mb-3">{headCoach.name}</h3>
               <p className="text-gray-700 mb-4">{headCoach.bio}</p>
-              {headCoach.philosophy && (
-                <div className="bg-gray-50 border-l-4 border-tennis-green p-4 mb-4">
-                  <p className="text-gray-700 italic">"{headCoach.philosophy}"</p>
-                </div>
-              )}
               {headCoach.certifications?.length > 0 && (
                 <div>
                   <h4 className="font-bold text-navy mb-2">Certifications</h4>
