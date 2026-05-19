@@ -40,6 +40,16 @@
       "name": "Samantha Luo",
       "bio": "I'm Samantha Luo, a senior at Seven Lakes High School. Although I'm not currently on the tennis team, I love to play with my friends after school. Before that, I was third seed at the Beckendorff Junior High tennis team. As an assistant coach, I aim to bring a positive energy to the court, developing both players' skills and a love for the sport.",
       "photo": "/images/coaches/samantha.jpg"
+    },
+    {
+      "name": "Chris",
+      "bio": "Varsity Tennis Player at Tomas High School — #1 Singles & Mixed Doubles. District Mixed Doubles Champion and Regional Qualifier. Named Fall Season District MVP. Passionate about competition, leadership, and helping players improve both technically and mentally on the court.",
+      "photo": "/images/coaches/chris.png"
+    },
+    {
+      "name": "Ishan Pagnis",
+      "bio": "Hello, I am Ishan Pagnis. I have been playing tennis for around 3-4 years and have a UTR of 4.5. I am 17 years old and attend Tompkins High School. I also volunteer in tennis, helping support and contribute to the sport through community involvement and activities.",
+      "photo": "/images/coaches/ishan.jpg"
     }
   ]
 }
