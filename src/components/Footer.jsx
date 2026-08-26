@@ -24,7 +24,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Contact</h4>
             <ul className="space-y-2">
               <p className="text-gray-300">hitallc20@gmail.com</p>
-              <p className="text-gray-300">+1 626 236-2901</p>
+              <p className="text-gray-300">+1 626 236-2902</p>
             </ul>
           </div>
         </div>
