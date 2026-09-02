@@ -20,7 +20,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-navy mb-8 text-center">Our Locations</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-surface p-6 rounded-lg shadow">
               <h3 className="text-xl font-bold text-navy mb-4 flex flex-wrap gap-x-2">
                 Fulshear High School
@@ -53,6 +53,28 @@ export default function Home() {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Tays location"
               ></iframe>
+            </div>
+
+            <div className="bg-surface p-6 rounded-lg shadow">
+              <h3 className="text-xl font-bold text-navy mb-4 flex flex-wrap gap-x-2">
+                Gene Tomas High School
+                <span className="text-sm font-normal text-gray-500 self-center">24945 Easton Ramsey Wy, Richmond, TX 77406</span>
+              </h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.2579121817894!2d-95.80946949999999!3d29.680013100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8641214ffa4786a3%3A0xee64bfbeda7c979b!2sGene%20Tomas%20High%20School!5e0!3m2!1sen!2sus!4v1788315916479!5m2!1sen!2sus"
+                width="100%"
+                height="299"
+                className="rounded-lg"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gene Tomas High School location"
+              ></iframe>
+              <p className="mt-2 text-center">
+                <a href="https://maps.app.goo.gl/qWZgH7f2UxjjmrUM6?g_st=i&utm_campaign=ac-im" target="_blank" rel="noopener noreferrer" className="text-navy hover:underline text-sm">
+                  Open in Google Maps
+                </a>
+              </p>
             </div>
           </div>
         </div>

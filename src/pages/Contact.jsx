@@ -28,8 +28,9 @@ export default function Contact() {
             </div>
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-navy mb-4">Locations</h2>
-              <p className="text-gray-600 mb-2"><strong>Fulshear:</strong> 9302 Charger Way, Fulshear, TX 77441</p>
-              <p className="text-gray-600"><strong>Tays:</strong> 26721 Hawks Prairie Blvd, Katy, TX 77494</p>
+              <p className="text-gray-600 mb-2"><strong>Fulshear High School:</strong> 9302 Charger Way, Fulshear, TX 77441</p>
+              <p className="text-gray-600 mb-2"><strong>Tays Junior High:</strong> 26721 Hawks Prairie Blvd, Katy, TX 77494</p>
+              <p className="text-gray-600 mb-2"><strong>Gene Tomas High School:</strong> 24945 Easton Ramsey Wy, Richmond, TX 77406</p>
             </div>
             <div>
               <Link

@@ -25,6 +25,11 @@ export default function Programs() {
                 </tr>
               </thead>
               <tbody>
+                <tr className="bg-surface hover:bg-black/10">
+                  <td className="px-4 py-3 border-b font-semibold">Drop-in (1 class)</td>
+                  <td className="px-4 py-3 border-b">1 class</td>
+                  <td className="px-4 py-3 border-b font-semibold">${groupPricing.dropInPrice}</td>
+                </tr>
                 {groupPricing.plans.map((plan, i) => (
                   <tr key={i} className="bg-surface hover:bg-black/10">
                     <td className="px-4 py-3 border-b">{plan.daysPerWeek} day{plan.daysPerWeek > 1 ? 's' : ''}</td>
@@ -55,17 +60,17 @@ export default function Programs() {
               <tbody>
                 <tr className="bg-surface hover:bg-black/10">
                   <td className="px-4 py-3 border-b font-semibold">Single charge</td>
-                  <td className="px-4 py-3 border-b">$80</td>
-                  <td className="px-4 py-3 border-b">$90</td>
-                  <td className="px-4 py-3 border-b">$100</td>
-                  <td className="px-4 py-3 border-b">$45</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[0].single}</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[1].single}</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[2].single}</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[3].single}</td>
                 </tr>
                 <tr className="bg-surface hover:bg-black/10">
                   <td className="px-4 py-3 border-b font-semibold">Monthly charge</td>
-                  <td className="px-4 py-3 border-b">$75</td>
-                  <td className="px-4 py-3 border-b">$85</td>
-                  <td className="px-4 py-3 border-b">$95</td>
-                  <td className="px-4 py-3 border-b">$40</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[0].monthly}</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[1].monthly}</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[2].monthly}</td>
+                  <td className="px-4 py-3 border-b">${privatePricing.rates[3].monthly}</td>
                 </tr>
               </tbody>
             </table>
@@ -76,7 +81,7 @@ export default function Programs() {
         <div className="bg-tennis-green/10 border border-tennis-green rounded-lg p-6">
           <h2 className="text-2xl font-bold text-navy mb-4">Payment Information</h2>
           <p className="text-gray-700">
-            <strong>Cash-only payment.</strong> Payment is collected at the start of each session. 
+            Payment is collected at the start of each session. 
             Please bring payment to your first lesson.
           </p>
         </div>

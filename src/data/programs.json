@@ -18,18 +18,19 @@
     "period": "Monthly",
     "duration": "2 hours per class",
     "plans": [
-      { "daysPerWeek": 1, "classesPerMonth": 4, "price": 170 },
-      { "daysPerWeek": 2, "classesPerMonth": 8, "price": 320 },
-      { "daysPerWeek": 3, "classesPerMonth": 12, "price": 420 },
-      { "daysPerWeek": 4, "classesPerMonth": 16, "price": 520 }
-    ]
+      { "daysPerWeek": 1, "classesPerMonth": 4, "price": 180 },
+      { "daysPerWeek": 2, "classesPerMonth": 8, "price": 340 },
+      { "daysPerWeek": 3, "classesPerMonth": 12, "price": 480 },
+      { "daysPerWeek": 4, "classesPerMonth": 16, "price": 560 }
+    ],
+    "dropInPrice": 50
   },
   "privatePricing": {
     "rates": [
-      { "students": 1, "duration": "1h", "single": 80, "monthly": 75 },
-      { "students": 2, "duration": "1h", "single": 90, "monthly": 85 },
-      { "students": 3, "duration": "1h", "single": 100, "monthly": 95 },
-      { "students": 1, "duration": "0.5h", "single": 45, "monthly": 40 }
+      { "students": 1, "duration": "1h", "single": 90, "monthly": 85 },
+      { "students": 2, "duration": "1h", "single": 100, "monthly": 95 },
+      { "students": 3, "duration": "1h", "single": 110, "monthly": 105 },
+      { "students": 1, "duration": "0.5h", "single": 50, "monthly": 45 }
     ]
   }
 }
